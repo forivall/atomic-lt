@@ -1,17 +1,21 @@
 {
-  "name": "node-module-template",
+  "name": "atomic-lt",
   "version": "0.0.0",
-  "description": "$DESCRIPTION",
+  "description": "`cat` but using fs-write-stream-atomic",
   "keywords": [],
-  "homepage": "https://github.com/forivall/$NAME",
+  "homepage": "https://github.com/forivall/atomic-lt",
   "bugs": {
-    "url": "https://github.com/forivall/$NAME/issues"
+    "url": "https://github.com/forivall/atomic-lt/issues"
   },
   "license": "ISC",
   "author": "Emily Marigold Klassen <forivall@gmail.com>",
+  "bin": {
+    "atomic-lt": "./index.js",
+    "lt": "./index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:forivall/$NAME.git"
+    "url": "git@github.com:forivall/atomic-lt.git"
   },
   "scripts": {
     "inspect": "jsinspect",
@@ -24,7 +28,9 @@
     "test-cov": "nyc ava",
     "posttest-cov": "npm run posttest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs-write-stream-atomic": "^1.0.10"
+  },
   "devDependencies": {
     "ava": "^0.20.0",
     "coveralls": "^2.11.14",
