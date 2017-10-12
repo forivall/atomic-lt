@@ -1,6 +1,6 @@
 {
   "name": "atomic-lt",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "`cat` but using fs-write-stream-atomic",
   "keywords": [],
   "homepage": "https://github.com/forivall/atomic-lt",
