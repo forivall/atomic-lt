@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "ava": "^0.20.0",
-    "coveralls": "^2.11.14",
+    "coveralls": "^2.13.3",
     "eslint-config-mxo": "^0.5.3",
     "jsinspect": "^0.12.6",
     "nyc": "^11.0.3",
